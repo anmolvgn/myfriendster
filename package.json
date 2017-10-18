@@ -1,0 +1,25 @@
+{
+  "name": "anuggehalli",
+  "version": "1.0.0",
+  "description": "friend finding app",
+  "main": "friendster.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmolvgn/myfriendster.git"
+  },
+  "author": "anuggehalli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anmolvgn/myfriendster/issues"
+  },
+  "homepage": "https://github.com/anmolvgn/myfriendster#readme"
+}
