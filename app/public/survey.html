@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend Match Survey</title>
+    <header>
+        <h1> Friend Matching Survey </h1>    
+        <h2> Fill Out The Survey To Start Finding Like-Minded Friends </h2>
+    </header>
+    <br>
+    
+</head>
+<body>
+    <form action="submit">
+        <div>
+            <h2 col-md-12><span><strong> Contact Info </strong></span></h2>
+            <hr>
+                <h3><span>Name</span></h3>
+                <input type="text" name="Name" id="Name">
+                <br>
+                <h3><span>Email</span></h3>
+                <input type="text" name="email" id="email">
+                <br>
+                <h3><span>Phone Number</span></h3>
+                <input type="number" name="phone" id="phone">
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h2 col-md-12><span></span><strong> Personality Questions </strong></span></h2>
+            <hr>
+                <!-- on a scale of very true through not at all true rate yourself in these situations -->
+                <h3>
+                    Given a choice between going to a party and having a night to myself I choose having a night to myself.
+                </h3>
+                <br>
+                <div class="scale-buttons">                    
+                    <select name='true or false' id="scale-buttons">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+        </div>
+    </form>
+
+    <h3>
+        Given a choice between going to a party and having a night to myself I choose to go to a party.
+    </h3>
+    <br>
+    <div class="scale-buttons">                    
+        <select name='true or false' id="scale-buttons">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+</body>
+</html>
